@@ -1,0 +1,31 @@
+---
+:source:
+  :path: test
+  :file: test_Triangle.c
+:successes:
+- :test: test_triangle_scalene
+  :line: 19
+  :message: ''
+- :test: test_triangle_equilateral
+  :line: 30
+  :message: ''
+- :test: test_triangle_isoceles
+  :line: 41
+  :message: ''
+- :test: test_triangle_invalid_zero
+  :line: 53
+  :message: ''
+- :test: test_triangle_negative_value
+  :line: 65
+  :message: ''
+- :test: test_triangle_sides_value
+  :line: 77
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 6
+  :passed: 6
+  :failed: 0
+  :ignored: 0
+:stdout: []
